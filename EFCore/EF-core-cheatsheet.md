@@ -11,7 +11,7 @@ Verify that the installation was successful by running
 ```dotnet ef --v```
 
 This command should display the version of the EF Core CLI that you installed.
-![img.png](img.png)
+![img.png](img/img.png)
 
 ## Entity Framework Core packages
 
@@ -71,7 +71,7 @@ if you added a new model or changed something, you need to add a new migration a
 
 [Migrations Overview](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
 
-[Full EF Documentation](https://learn.microsoft.com/en-us/ef/core/)
+**[Full EF Documentation](https://learn.microsoft.com/en-us/ef/core/)**
 
 ## Using EF Core in Your Controller
 
@@ -90,6 +90,7 @@ public class UserApiController : ControllerBase
 ```
 
 ## CheatSheet 
+> Note: Remember that if you have asynchronous code, you need to use async/await and EF methods that end in Async
 
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img_1.png](img/img_1.png)
+![img_2.png](img/img_2.png)
